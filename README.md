@@ -18,6 +18,12 @@ Most of the endpoints will require an API Access token which can be obtained by 
 
 Example of creating and using the API can be found in the ./client/client_test.go module. 
 
+Adding to your project
+
+```
+  > go get github.com/c1freitas/charles-freitas-sdk/client
+```
+
 Basic usage examples:
 
 ```
