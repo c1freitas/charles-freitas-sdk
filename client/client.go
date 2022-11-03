@@ -209,7 +209,7 @@ func buildUrl(baseUrl string, path string, opt *Options) string {
 		url += "&offset=" + strconv.Itoa(*opt.Offset)
 	}
 	if opt.SortOpt != nil {
-		url += fmt.Sprintf("&%s=%s", opt.SortOpt.Key, opt.SortOpt.Order)
+		url += fmt.Sprintf("&sort=%s:%s", opt.SortOpt.Key, opt.SortOpt.Order)
 	}
 
 	return url
